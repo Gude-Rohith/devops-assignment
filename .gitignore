@@ -1,0 +1,35 @@
+
+# Terraform working directory
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# AWS credentials and private keys
+.aws/
+*.pem
+*.key
+credentials
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Terraform provider lock file
+**/.terraform.lock.hcl
